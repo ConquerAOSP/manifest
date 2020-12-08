@@ -72,8 +72,11 @@
   <!-- Tools -->
   <project path="tools/metalava" name="tools_metalava" remote="conquer" />
 
-  <!-- RevengeOS vendor -->
+  <!-- ConquerOS vendor -->
   <project path="vendor/conquer" name="vendor_conquer" remote="conquer" />
   <project path="vendor/conquerui" name="vendor_conquerui" remote="conquer" />
-  
+
+  <!-- QCOM Vendor -->  
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="conquer" />
+
 </manifest>
